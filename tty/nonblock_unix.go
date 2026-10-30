@@ -12,8 +12,8 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-//go:build linux || aix || zos || solaris
-// +build linux aix zos solaris
+//go:build linux || aix || zos || redox || solaris
+// +build linux aix zos redox solaris
 
 package tty
 
